@@ -12,7 +12,13 @@ $ git clone https://github.com/Jefferson-santos-franca/WebAppWeather
 ```
 
 ```
-Abra o arquivo index em seu navegador. 
+Esse projeto desenvolvido com HTML, CSS3 e JavaScript com adição de uma API.
+Site criado para pesquisar a previsão do tempo na sua cidade ou região em tempo real.
+Modo de uso: ao abrir o site tem um campo onde deve-se inserir a cidade á pesquisar, não é
+necessario informar o estado, aperte em procurar ou tecle enter para fazer a pesquisa.
+Em seguida o site ira para uma tela mostrando a temperatuda da cidade pesquisada, e um ícone aparecera
+alertando se está: chovendo, nublado, sol, nevando ou trovejando.
+E logo a baixo da tela tem um botão para voltar ao inicio da pesquisa. 
 ```
 
 ## Screens:
