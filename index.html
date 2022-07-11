@@ -9,38 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <title>Previsao do Tempo</title>
+    <title>Express Tempo</title>
 </head>
 
 <body>
     <main>
         <div id="card">
             <div id="card-top">
-                <h2>9º</h2>
-                <p>Brasil</p>
-            </div>
-            <div id="bg">
-                <div id="current-day">
-                    <p>Segunda-feira</p>
-                    <div class="prevision">
-                        <p>17º</p>
-                        <span>Cloudy</span>
-                    </div>
-                </div>
-                <hr />
-                <div id="next-day">
-                    <p>Terça-feira</p>
-                    <div class="prevision">
-                        <p>13º</p>
-                        <span>Roindy</span>
-                    </div>
-                </div>
             </div>
         </div>
+        <button onclick="Switch()" id="return">Voltar</button>
         <div id="city-container">
             <input type="text" id="city" placeholder="Digite sua Cidade">
-            <button id="search">Procurar</button>
+            <button id="search" onclick="mostraTempo()">Procurar</button>
         </div>
+        <span id="error">Cidade não encontrada!</span>
     </main>
 
     <script src="js/script.js"></script>
