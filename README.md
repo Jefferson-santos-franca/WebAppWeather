@@ -34,4 +34,4 @@ Abra o arquivo index em seu navegador.
 
 ## Credits
 
-<a href="https://www.linkedin.com/in/jefferson-fran%C3%A7a-aa2005140/"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1" width="40px" height="40px" /> Jefferson França</a>
+<a href="https://www.linkedin.com/in/jefferson-fran%C3%A7a-aa2005140/">[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-oliveira-65a317194/) Jefferson França</a>
