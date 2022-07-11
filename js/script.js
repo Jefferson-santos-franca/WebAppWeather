@@ -1,9 +1,10 @@
 var activeInput = true;
 let temp;
 let icon;
+const logo = document.getElementById('logo');
 const cardTop = document.getElementById('card-top');
 const inputElement = document.getElementById('city');
-const inputContainer = document.getElementById('city-container');
+const cityContainer = document.getElementById('city-container');
 const cardContainer = document.getElementById('card');
 const error = document.getElementById('error');
 const buttonReturn = document.getElementById('return')
@@ -23,7 +24,7 @@ function SetCity() {
     } else if (icon >= 801 && icon <= 804) {
         urlImg = '../img/nuvens.png';
     }
-    var newElement = `<img src="${urlImg}" id="icon" /><h2>${temp}º</h2> <p>${inputElement.value}</p>`
+    var newElement = `<img src="${urlImg}" id="icon" /><h2>${temp}ºC</h2> <p>${inputElement.value}</p>`
     cardTop.innerHTML = newElement;
     Switch();
 }
@@ -32,11 +33,13 @@ function Switch() {
     if (cardContainer.style.display == 'flex') {
         cardContainer.style.display = 'none'
         buttonReturn.style.display = 'none'
-        inputContainer.style.display = 'flex'
+        cityContainer.style.display = 'flex'
+        logo.style.display = 'flex'
     } else {
         cardContainer.style.display = 'flex'
         buttonReturn.style.display = 'flex'
-        inputContainer.style.display = 'none'
+        cityContainer.style.display = 'none'
+        logo.style.display = 'none'
     }
 }
 

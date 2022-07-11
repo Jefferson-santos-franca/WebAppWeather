@@ -40,7 +40,7 @@ main {
     background-size: cover;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -68,6 +68,13 @@ main {
         margin-top: 1rem;
         width: 14rem;
     }
+}
+
+#logo {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
 }
 
 #card-top {
@@ -129,4 +136,9 @@ button {
     height: 80px;
     font-size: 30px;
     margin-top: 0.2rem;
+}
+
+#icon {
+    width: 13rem;
+    height: 13rem;
 }
