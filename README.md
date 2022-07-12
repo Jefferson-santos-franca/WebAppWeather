@@ -12,7 +12,7 @@ $ git clone https://github.com/Jefferson-santos-franca/WebAppWeather
 ```
 
 ```
-Esse projeto desenvolvido com HTML, CSS3 e JavaScript com adição de uma API.
+Esse projeto desenvolvido com HTML, CSS3 e JavaScript e está consumindo os dados da api (openweathermap.org).
 Site criado para pesquisar a previsão do tempo na sua cidade ou região em tempo real.
 Modo de uso: ao abrir o site tem um campo onde deve-se inserir a cidade á pesquisar, não é
 necessario informar o estado, aperte em procurar ou tecle enter para fazer a pesquisa.
