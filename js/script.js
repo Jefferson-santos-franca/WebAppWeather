@@ -29,6 +29,20 @@ function SetCity() {
     Switch();
 }
 
+function SetBackground() {
+    var getHOurs = new Date().getHours();
+
+    if (getHOurs >= 6 && getHOurs <= 12) {
+        cardContainer.style.backgroundImage = "url(../img/dia.webp)";
+    }
+    else if (getHOurs >= 13 && getHOurs <= 18) {
+        cardContainer.style.backgroundImage = "url(../img/tarde.webp)";
+    }
+    else {
+        cardContainer.style.backgroundImage = "url(../img/Moon.webp)";
+    }
+}
+
 function Switch() {
     if (cardContainer.style.display == 'flex') {
         cardContainer.style.display = 'none'
