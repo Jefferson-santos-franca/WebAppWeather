@@ -8,6 +8,7 @@ const cityContainer = document.getElementById('city-container');
 const cardContainer = document.getElementById('card');
 const error = document.getElementById('error');
 const buttonReturn = document.getElementById('return')
+SetBackground();
 
 function SetCity() {
     var urlImg;
