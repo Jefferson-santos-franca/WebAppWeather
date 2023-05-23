@@ -40,4 +40,4 @@ E logo a baixo da tela tem um botão para voltar ao inicio da pesquisa.
 
 ## Credits
 
-<a href="https://www.linkedin.com/in/jefferson-fran%C3%A7a-aa2005140/" style="display:flex; align-items: center; justify-content: center;">[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-oliveira-65a317194/) Jefferson França</a>
+<a href="https://www.linkedin.com/in/jefferson-fran%C3%A7a-aa2005140/" style="display:flex; align-items: center; justify-content: center;">![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) Jefferson França</a>
